@@ -4,7 +4,10 @@
   "description": "Made with create-react-library",
   "author": "https://github.com/ishantmehta012",
   "license": "MIT",
-  "repository": "https://github.com/ishantmehta012/font-select",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishantmehta012/font-select.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -53,8 +56,16 @@
   "dependencies": {
     "@blueprintjs/core": "^3.44.3",
     "@blueprintjs/icons": "^3.26.1",
+    "node-sass": "^6.0.0",
     "react-virtualized-auto-sizer": "^1.0.5",
     "react-window": "^1.8.6",
     "tailwindcss": "^2.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/ishantmehta012/font-select/issues"
+  },
+  "homepage": "https://github.com/ishantmehta012/font-select#readme",
+  "directories": {
+    "example": "example"
   }
 }
